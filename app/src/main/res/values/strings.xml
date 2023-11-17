@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Portfolio 2</string>
+    <string name="Project_information">Projects</string>
+    <string name="Profile_information">Profile</string>
+    <string name="Art_information">Artwork</string>
+    <string name="Social_information">Social</string>
+    <string name="Instruktions_main_page"> Hello and welcome!
+This is my portfolio,
+By clicking the \"Projects\" button you can view my previous projects i have worked on.
+Clicking the \"Artwork\" button will show you some of my designs.
+The "Profile\" button will take you a short informatory text about me in both my personal life and professional life.
+Lastly you find links to my social accounts by clicking the \"Social\" button. </string>
+    <string name="Profile_text">Hello! I am 34 years old and live in Stockholm, where I am currently
+        studying application development in KYH College.
+        I also have union training as a safety representative and have good knowledge of union and work environment.
+        I am a dedicated worker who is happy to take a little longer to learn new tasks and
+        to learn correct from the start, I have a easy time getting along with people.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
