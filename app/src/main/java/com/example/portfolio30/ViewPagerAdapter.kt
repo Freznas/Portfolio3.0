@@ -1,5 +1,6 @@
 package com.example.portfolio30
-
+// The ViewPagerAdapter makes sure my swiping functionality finds the diffrent fragments to swipe
+// between,
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter

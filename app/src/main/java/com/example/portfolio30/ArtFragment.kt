@@ -1,5 +1,6 @@
 package com.example.portfolio30
-
+// This Fragment handles the viewing of the different art and design creations.
+// in the future i plan on convering it to some sort of ListView aswell to handle more designs.
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater

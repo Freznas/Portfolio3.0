@@ -1,5 +1,5 @@
 package com.example.portfolio30
-
+// This adapter handles my projectList and recyclerView functionallity.
 import android.content.Intent
 import android.net.Uri
 import android.view.LayoutInflater
@@ -37,13 +37,27 @@ class ProjectAdapter(val projectList: List<Project>, val clickListener: (Project
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = projectList[position]
+
         holder.tvName.text = item.name
         holder.tvDescription.text = item.description
         holder.imgView.setImageResource(item.imgSrc)
+
+
         holder.cardView.setOnClickListener {
-            val url = item.description // Antar att description innehåller webblänken
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
-            it.context.startActivity(intent)
+
+            val context = it.context
+            val intent = when (position) {
+                0 -> Intent(context, PortfolioActivity::class.java)
+                1 -> Intent(context, NotepadActivity::class.java)
+                2 -> Intent(context, RestaurantActivity::class.java)
+                3 -> Intent(context, CalculatorActivity::class.java)
+                4 -> Intent(context, BmiCalculatorActivity::class.java)
+                5 -> Intent(context, BlenderActivity::class.java)
+                else -> null
+            }
+            intent?.let {
+                context.startActivity(it)
+            }
 
 
         }

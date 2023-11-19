@@ -5,9 +5,9 @@
     android:id="@+id/cv_root"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
+    android:layout_margin="@dimen/cardview_margin"
     android:backgroundTint="@color/transparentColor"
-    app:cardCornerRadius="25dp">
+    app:cardCornerRadius="@dimen/card_corner_radius">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,8 +16,8 @@
 
         <ImageView
             android:id="@+id/iv_profile"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/list_iv_width"
+            android:layout_height="@dimen/list_iv_height"
             tools:src="@drawable/ic_launcher_background" />
 
         <LinearLayout
@@ -26,20 +26,20 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tv_title"
+                android:id="@+id/tv_social_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Projektnamn"
+                android:text="@string/social_list_title"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="@dimen/list_title_size" />
 
             <TextView
-                android:id="@+id/tv_content"
+                android:id="@+id/tv_social_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="här kommer kort text om projektet visas"
+                android:text="@string/social_list_content"
                 android:textColor="@color/white"
-                android:textSize="13sp" />
+                android:textSize="@dimen/list_content_size" />
 
 
         </LinearLayout>

@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Projects"
+        android:text="@string/Project_RV_Title"
         android:textColor="@color/white"
         android:textSize="@dimen/header_textsize"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,8 +24,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_projectlist"
-        android:layout_width="416dp"
-        android:layout_height="644dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"

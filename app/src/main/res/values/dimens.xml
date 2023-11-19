@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="header_textsize">30sp</dimen>
+    <dimen name="textsize_projects">18sp</dimen>
+    <dimen name="layout_margin_project_text">20dp</dimen>
+    <dimen name="project_image_heights">462dp</dimen>
+    <dimen name="profile_iv_height">306dp</dimen>
+    <dimen name="profile_iv_width">227dp</dimen>
+    <dimen name="Project_RV_Height">644dp</dimen>
+    <dimen name="card_corner_radius">25dp</dimen>
+    <dimen name="cardview_margin">10dp</dimen>
+    <dimen name="list_iv_width">100dp</dimen>
+    <dimen name="list_iv_height">100dp</dimen>
+    <dimen name="list_title_size">20sp</dimen>
+    <dimen name="list_content_size">17sp</dimen>
 </resources>

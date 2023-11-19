@@ -1,5 +1,5 @@
 package com.example.portfolio30
-
+// This Adapter handles my SocialList and RecyclerView to view and make sure my clicklistener links to the correct sites.
 import android.content.Intent
 import android.net.Uri
 import android.view.LayoutInflater
